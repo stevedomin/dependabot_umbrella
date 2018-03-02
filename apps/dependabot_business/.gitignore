@@ -20,5 +20,5 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-dependabot_core-*.tar
+dependabot_business-*.tar
 

@@ -1,6 +1,6 @@
-defmodule DependabotCore do
+defmodule DependabotBusiness do
   @moduledoc """
-  Documentation for DependabotCore.
+  Documentation for DependabotBusiness.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule DependabotCore do
 
   ## Examples
 
-      iex> DependabotCore.hello
+      iex> DependabotBusiness.hello
       :world
 
   """

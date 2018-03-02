@@ -1,9 +1,9 @@
-defmodule DependabotCore.MixProject do
+defmodule DependabotBusiness.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :dependabot_core,
+      app: :dependabot_business,
       version: "0.1.0",
       build_path: "../../_build",
       config_path: "../../config/config.exs",
@@ -23,8 +23,8 @@ defmodule DependabotCore.MixProject do
 
   defp deps do
     [
-      {:jason, "~> 1.0"},
-      {:plug, "~> 1.4"}
+      {:plug, "~> 1.4"},
+      {:jason, "~> 1.0"}
     ]
   end
 end
